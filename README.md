@@ -19,3 +19,34 @@ Puedes instalar Pygame usando pip:
 
 ```bash
 pip install pygame
+```
+# Controles
+- [ESPACIO]: Robar una carta (Hit)
+- [ENTER]: Pasar turno
+- [R]: Reiniciar el juego
+- [S]: Alternar el modo espectador (ver la mano de la IA)
+- [ESC]: Salir del juego
+
+# Lógica del Juego
+- Cada jugador (tú y la IA) comienza con dos cartas.
+- El objetivo es acercarse lo más posible a 21 sin pasarse.
+- El jugador puede elegir robar (hit) o pasar.
+- La IA robará cartas según el valor de su mano.
+- El As puede valer 1 o 11.
+- El juego mostrará al ganador al final de cada ronda.
+
+# Estados del juego
+***Inicial***
+![Estado inicial](Capturas/inicial.png)
+
+***Hit***
+![Estado inicial](Capturas/hit.png)
+
+***Gana/Win***
+![Estado inicial](Capturas/win.png)
+
+***Pierde/Lose***
+![Estado inicial](Capturas/lose.png)
+
+***Empate***
+![Estado inicial](Capturas/empate.png)
